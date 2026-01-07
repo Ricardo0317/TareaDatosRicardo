@@ -10,6 +10,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) {
         try {
+        	System.out.println("Mensaje Nuevo");
             Parent root = FXMLLoader.load(getClass().getResource("/presentation/GUICourse.fxml"));            
             Scene scene = new Scene(root, 600, 500);
             primaryStage.setTitle("Gestión de Cursos");
